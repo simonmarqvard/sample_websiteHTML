@@ -6,10 +6,12 @@
   </head>
   <body>
 
-    <div>
-    <a href="index.html">Home</a>
-    <a href="moby_dick.html">Moby-Dick</a>
-    <a href="tags.html">HTML Tags</a>
+    <div style="text-align: right;">
+    <a href="index.html" style="text-decoration: none;">Home</a>
+    <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none"
+      >Moby-Dick</a>
+    <a href="tags.html" style="margin-left: 10px; text-decoration: none;"
+      >HTML Tags</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -79,15 +81,19 @@
         <td>page division</td>
         <td>Sets the page divisions apart</td>
       <tr>
-        <td><code>lo</code></td>
+        <td><code>ol</code></td>
         <td>list (ordered)</td>
         <td>list ordered with numbers</td>
       </tr>
       <tr>
-        <td><code>lu</code></td>
+        <td><code>ul</code></td>
         <td>list (unordered)</td>
         <td>list unordered without numbers</td>
       </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>include a list item (ordered or unordered)</td>
 
 
     </table>
@@ -141,14 +147,42 @@
       <td><code>&lt;span&gt;include text here&lt;span&gt;</code></td>
       <td><span>Include text here<span></td>
     </tr>
-    <tr>
-      <td><code>li<code></td>
-      <td>list</td>
-      <td>list element for ordered and unordered lists</td>
-      <td><code>&lt;li&gt;include text for list&lt;li&gt;</code></td>
-      <td><li>text for list</li></td>
 
   </table>
+
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Purpose</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td><code>html</code></td>
+      <td>Container for all other html elements</td>
+      <td>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;
+        &lt;/html&gt;
+    </tr>
+    <tr>
+      <td><code>head</code></td>
+      <td>Contains metadata (data about data). Not displayed. Tells browser where
+          to find CSS and JS files. Also contains title tag. </td>
+      <td>&lt;head&gt;&lt;title&gt;Simon's page&lt;/title&gt;&lt;/head&gt;</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td>Name for the page - shown in pagetab</td>
+      <td>Simon's webpage</td>
+    </tr>
+    <tr>
+      <td><code>meta</code></td>
+      <td>void element - defines the character set</td>
+      <td>&lt;meta charset="utf-8"&gt;</td>
+    </tr>
+    <tr>
+      <td><code>body</code></td>
+      <td>Where tags creating the page go</td>
+      <td>&lt;body&gt;&lt;p&gt;pagetext&lt;/p&gt;&lt;/body&gt;
+
 
   </body>
 
